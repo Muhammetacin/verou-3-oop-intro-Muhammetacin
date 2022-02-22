@@ -122,7 +122,7 @@ echo 'getPrice after modifying property: ' . $exercise5Cola->getPrice() . '<br>'
 
 // --------------------------------------------------------
 
-// Exercise 5
+// Exercise 6
 /*
  * Copy the classes of exercise 2.
  * Change the properties to private.
@@ -135,8 +135,19 @@ echo 'getPrice after modifying property: ' . $exercise5Cola->getPrice() . '<br>'
  *
  */
 echo '<br><br>Exercise 6<br><br>';
-//require 'BeerPrivate.php';
 
 $exercise6Duvel = new BeerPrivate('Duvel', 8.5, 'blond', 3.5);
 print_r($exercise6Duvel->printConstantPropertyFromBeverage() . '<br>');
 print_r($exercise6Duvel->printConstantPropertyFromBeer() . '<br>');
+
+// --------------------------------------------------------
+
+// Exercise 7
+/*
+ * Copy your solution from exercise 6
+ * Make a static property in the Beverage class that can only be accessed from inside the class called address which has the value "Melkmarkt 9, 2000 Antwerpen".
+ * Print the address without creating a new instant of the beverage class 2 times in two different ways.
+ *
+ */
+echo '<br><br>Exercise 7<br><br>';
+print_r($exercise1Cola->printStaticAddress());
