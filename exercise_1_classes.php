@@ -15,27 +15,22 @@ Print the temperature on the screen.
 
 USE TYPEHINTING EVERYWHERE!
 */
-
-class Beverage
-{
-    public string $color;
-    public float $price;
-    public string $temperature;
-
-    public function __construct(string $color, float $price, string $temperature = 'cold')
-    {
-        $this->color = $color;
-        $this->price = $price;
-        $this->temperature = $temperature;
-    }
-
-    function getInfo(): string
-    {
-        return "This beverage is {$this->temperature} and {$this->color}.";
-    }
-}
-
-$cola = new Beverage('black', 2);
-
-//echo nl2br($cola->getInfo() . "\n");
-//echo 'Temperature of Cola: ' . $cola->temperature;
+//
+//class Beverage
+//{
+//    public string $color;
+//    public float $price;
+//    public string $temperature;
+//
+//    public function __construct(string $color, float $price, string $temperature = 'cold')
+//    {
+//        $this->color = $color;
+//        $this->price = $price;
+//        $this->temperature = $temperature;
+//    }
+//
+//    function getInfo(): string
+//    {
+//        return "This beverage is {$this->temperature} and {$this->color}.";
+//    }
+//}
