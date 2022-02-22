@@ -22,7 +22,7 @@ class Beverage
     public float $price;
     public string $temperature;
 
-    public function __construct($color, $price, $temperature = 'cold')
+    public function __construct(string $color, float $price, string $temperature = 'cold')
     {
         $this->color = $color;
         $this->price = $price;
