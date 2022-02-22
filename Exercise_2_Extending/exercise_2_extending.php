@@ -19,21 +19,11 @@ Try to get this error on the screen= Fatal error: Uncaught Error: Call to undefi
 USE TYPEHINTING EVERYWHERE!
 */
 
-//require './exercise_1_classes.php';
-//
-//class Beer extends Beverage
-//{
-//    public string $name;
-//    public float $alcoholPercentage;
-//
-//    function __construct(string $name, float $alcoholPercentage, string $color, float $price, string $temperature = 'cold') {
-//        $this->name = $name;
-//        $this->alcoholPercentage = $alcoholPercentage;
-//        parent::__construct($color, $price, $temperature);
-//    }
-//
-//    function getAlcoholPercentage(): string
-//    {
-//        return "Alcohol percentage of beverage is {$this->alcoholPercentage}";
-//    }
-//}
+require '../Beer.php';
+
+$duvel = new Beer('Duvel', 8.5, 'blond', 3.5);
+
+echo '<br>' . $duvel->getAlcoholPercentage() . '<br>';
+print_r($duvel->getAlcoholPercentage());
+print_r('<br>Color of ' . $duvel->name . ' is ' . $duvel->color . '.<br>');
+print_r($duvel->getInfo());

@@ -15,16 +15,16 @@ This approach to programming is well-suited for programs that are large, complex
 > Lost for a second? Have a look at [this example](#an-example)
 
 ### 🌱 Must haves - the basics
-- [Exercise 1](exercise_1_classes.php)
-- [Exercise 2](exercise_2_extending.php)
+- [Exercise 1](Exercise_1_Classes/exercise_1_classes.php)
+- [Exercise 2](Exercise_2_Extending/exercise_2_extending.php)
 
 ### 🌱 Must haves - digging deeper
-- [exercise 3](exercise_3_private.php)
-- [exercise 4](exercise_4_protected.php)
-- [exercise 5](exercise_5_public.php)
+- [exercise 3](Exercise_3_Private/exercise_3_private.php)
+- [exercise 4](Exercise_4_Protected/exercise_4_protected.php)
+- [exercise 5](Exercise_5_Public/exercise_5_public.php)
 
 ### 🌼 Nice to haves
-- [exercise 6](exercise_6_const.php)
+- [exercise 6](Exercise_6_Const/exercise_6_const.php)
 - [exercise 7](exercise_7_static.php)
 
 ## An example
