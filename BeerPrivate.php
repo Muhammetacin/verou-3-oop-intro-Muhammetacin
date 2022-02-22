@@ -25,4 +25,8 @@ class BeerPrivate extends Beverage
     {
         return $this->beerInfo();
     }
+
+    function printConstantPropertyFromBeer() {
+        return parent::BARNAME . ' from Beer class';
+    }
 }

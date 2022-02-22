@@ -119,3 +119,24 @@ $reflectionProperty->setValue($exercise5Cola, 3.5);
 //var_dump($reflectionProperty->getValue($cola));
 
 echo 'getPrice after modifying property: ' . $exercise5Cola->getPrice() . '<br>';
+
+// --------------------------------------------------------
+
+// Exercise 5
+/*
+ * Copy the classes of exercise 2.
+ * Change the properties to private.
+ * Make a const barname with the value 'Het Vervolg'.
+ * Print the constant on the screen.
+ * Create a function in beverage and use the constant.
+ * Do the same in the beer class.
+ * Print the output of these functions on the screen.
+ * Make sure that every print is on a new line.
+ *
+ */
+echo '<br><br>Exercise 6<br><br>';
+//require 'BeerPrivate.php';
+
+$exercise6Duvel = new BeerPrivate('Duvel', 8.5, 'blond', 3.5);
+print_r($exercise6Duvel->printConstantPropertyFromBeverage() . '<br>');
+print_r($exercise6Duvel->printConstantPropertyFromBeer() . '<br>');
